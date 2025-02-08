@@ -1117,7 +1117,7 @@ static int goodix_parse_dt(struct device *dev,
 	int r;
 	struct device_node *node = dev->of_node;
 
-#ifdef CONFIG_BOARD_XAIOMI_LISA
+#ifdef CONFIG_BOARD_XIAOMI_LISA
 	uint32_t temp_val;
 	struct device_node *temp = dev->of_node;
 	struct goodix_config_info *config_info;
